@@ -1,0 +1,156 @@
+/* freight-sans-pro */
+/**
+ * Form elements
+ */
+.form-control {
+  font-family: inherit; }
+
+.m-switch input:checked ~ span::after {
+  box-shadow: none; }
+
+/**
+ * Header
+ */
+/* .m-brand.m-brand--skin-dark {
+    background: $brand-green;
+} */
+.m-brand.m-brand--skin-dark .m-brand__tools .m-brand__toggler span,
+.m-brand.m-brand--skin-dark .m-brand__tools .m-brand__toggler span::before,
+.m-brand.m-brand--skin-dark .m-brand__tools .m-brand__toggler span::after,
+.m-brand.m-brand--skin-dark .m-brand__tools .m-brand__toggler.m-brand__toggler--active span,
+.m-brand.m-brand--skin-dark .m-brand__tools .m-brand__toggler.m-brand__toggler--active span::before,
+.m-brand.m-brand--skin-dark .m-brand__tools .m-brand__toggler.m-brand__toggler--active span::after {
+  background: #c4c49d; }
+
+.m-brand.m-brand--skin-dark .m-brand__tools .m-brand__toggler:hover span,
+.m-brand.m-brand--skin-dark .m-brand__tools .m-brand__toggler:hover span::before,
+.m-brand.m-brand--skin-dark .m-brand__tools .m-brand__toggler:hover span::after {
+  background: #d7d7bd; }
+
+/**
+ * Aside left
+ */
+/*
+.m-aside-left.m-aside-left--skin-dark {
+    background-color: darken($brand-purple, 10%);
+}
+
+.m-aside-menu.m-aside-menu--skin-dark .m-menu__nav {
+
+    // menu section labels
+    > .m-menu__section .m-menu__section-text {
+        color: #fff;
+    }
+
+    // menu link texts
+    > .m-menu__item > .m-menu__heading .m-menu__link-text, 
+    > .m-menu__item > .m-menu__link .m-menu__link-text {
+        color: #fff;
+    }
+
+    // menu link texts : hover
+    > .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover > .m-menu__heading .m-menu__link-text, 
+    > .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover > .m-menu__link .m-menu__link-text {
+        color: #fff;
+    }
+
+    // menu icons
+    > .m-menu__item > .m-menu__heading .m-menu__link-icon, 
+    > .m-menu__item > .m-menu__link .m-menu__link-icon {
+        color: #fff;
+    }
+
+    // menu icons : hover {
+    > .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover > .m-menu__heading .m-menu__link-icon, 
+    > .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover > .m-menu__link .m-menu__link-icon {
+        color: #fff;
+    }
+
+    // menu item expanded - background colour
+    > .m-menu__item.m-menu__item--open, 
+    > .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover {
+        background-color: darken($brand-purple, 15%);
+    }
+
+    // menu item expanded - link texts
+    > .m-menu__item.m-menu__item--open > .m-menu__heading .m-menu__link-text, 
+    > .m-menu__item.m-menu__item--open > .m-menu__link .m-menu__link-text {
+        color: #fff;
+    }
+
+    // menu item expanded - icon
+    > .m-menu__item.m-menu__item--open > .m-menu__heading .m-menu__link-icon, 
+    > .m-menu__item.m-menu__item--open > .m-menu__link .m-menu__link-icon {
+        color: #fff;
+    }
+
+    // menu item expanded - submenu - link texts
+    > .m-menu__item .m-menu__submenu .m-menu__item > .m-menu__heading .m-menu__link-text, 
+    > .m-menu__item .m-menu__submenu .m-menu__item > .m-menu__link .m-menu__link-text {
+        color: #fff;
+    }
+    // menu item expanded - submenu - bullet points
+    > .m-menu__item .m-menu__submenu .m-menu__item > .m-menu__heading .m-menu__link-bullet.m-menu__link-bullet--dot > span, 
+    > .m-menu__item .m-menu__submenu .m-menu__item > .m-menu__link .m-menu__link-bullet.m-menu__link-bullet--dot > span {
+        background-color: #fff;
+    }
+
+    // menu item expanded - submenu - link texts : hover
+    > .m-menu__item .m-menu__submenu .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover > .m-menu__heading .m-menu__link-text, 
+    > .m-menu__item .m-menu__submenu .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover > .m-menu__link .m-menu__link-text {
+        color: #fff;
+    }
+    // menu item expanded - submenu - bullet points : hover
+    > .m-menu__item .m-menu__submenu .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover > .m-menu__heading .m-menu__link-bullet.m-menu__link-bullet--dot > span, 
+    > .m-menu__item .m-menu__submenu .m-menu__item:not(.m-menu__item--parent):not(.m-menu__item--open):not(.m-menu__item--expanded):not(.m-menu__item--active):hover > .m-menu__link .m-menu__link-bullet.m-menu__link-bullet--dot > span {
+        background-color: #fff;
+    }
+}
+*/
+/**
+ * Body skin
+ */
+body.m-content--skin-light2,
+.m-content--skin-light2 .m-body {
+  background-color: #f5f5f5; }
+
+/**
+ * Forms
+ */
+.m-form .m-form__group {
+  padding-top: 0px; }
+
+/**
+ * Datatables - sub tables
+ */
+.m-datatable.m-datatable--default.m-datatable--subtable > .m-datatable__table > .m-datatable__body .m-datatable__row-subtable {
+  background: #fff; }
+  .m-datatable.m-datatable--default.m-datatable--subtable > .m-datatable__table > .m-datatable__body .m-datatable__row-subtable > .m-datatable__subtable {
+    padding: 0; }
+
+.ei-datatable-subtable {
+  margin: 10px 0 10px 46px; }
+  .ei-datatable-subtable .m-datatable__cell {
+    padding: 5px 10px !important; }
+  .ei-datatable-subtable .m-datatable__row > .m-datatable__cell:first-child {
+    font-weight: 600; }
+
+.m-card-user.m-card-user--sm .m-card-user__details .m-card-user__name {
+  line-height: 1.1; }
+
+.m-card-user.m-card-user--sm .m-card-user__details .m-card-user__email {
+  padding: 0; }
+
+/**
+ * Badges
+ */
+.m-badge {
+  font-weight: 600;
+  vertical-align: text-top;
+  line-height: initial; }
+  .m-badge.m-badge--wide {
+    letter-spacing: 0px; }
+
+.yb-countries-list {
+  height: 400px;
+  overflow-y: scroll; }
